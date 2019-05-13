@@ -1,0 +1,130 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+  
+  .logo-and-menu-area{
+    /*position: relative;*/
+  }
+  .logo-and-menu-area .nav-toggle{
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    color: white;
+    z-index: 100000;
+  }
+  .logo-and-menu-area-shadow .nav-toggle{
+    color: #e91e63;
+  }
+  .logo-and-menu-area{
+   
+    z-index: 100;
+  }
+  .main-menu{
+    display: none;
+
+    background: #e91e63;
+   
+  }
+  .main-menu ul li{
+    display: block;
+    text-align: center;
+  }
+  .main-menu ul li a{
+    padding-left:0px; 
+    padding-right:0px; 
+
+  }
+  .logo-and-menu-area-shadow .main-menu {
+    background: white;
+  }
+  #footer dd,  #footer dt{
+    font-size: 15px;
+  }
+   #footer .follow-us{
+    margin: 0px;
+   }
+   #footer .social-icon ul li a{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+   }
+
+}
+@media (min-width: 320px) and (max-width: 425px) {
+  
+  .single-slide .slide-content .slide-title h1{
+    font-size: 30px;
+  }
+  .single-slide .slide-content a{
+    padding: 15px 40px;
+  }
+  .food-menu-nav ul li{
+    margin-bottom: 2px;
+  }
+
+
+
+}
